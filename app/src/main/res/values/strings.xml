@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">RonyPro Portfolio</string>
+
+    <string name="portfolio_popular_movies_name">Popular Movies</string>
+    <string name="portfolio_stock_hawk_name">Stock Hawk</string>
+    <string name="portfolio_built_t_bigger_name">Build it Bigger</string>
+    <string name="portfolio_make_your_app_material_name">Make Your App Material</string>
+    <string name="portfolio_go_ubiquitous_name">Go Ubiquitous</string>
+    <string name="portfolio_capstone_name">Capstone</string>
+
+    <string name="toast_info_portfolio">This will launch my \'%1$s\' app!</string>
+
 </resources>

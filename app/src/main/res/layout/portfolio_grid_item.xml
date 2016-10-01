@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_widthPercent="100%"
+        app:layout_aspectRatio="100%" >
+
+        <ImageView
+            android:id="@+id/iconImageView"
+            tools:src="@drawable/ic_app_popular_movies_400dp"
+            android:layout_margin="@dimen/portfolio_icon_margin"
+            android:scaleType="centerInside"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/nameTextView"
+            style="?android:textAppearanceMedium"
+            tools:text="Portfolio app name"
+            android:layout_margin="@dimen/portfolio_name_margin"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+</android.support.percent.PercentFrameLayout>
